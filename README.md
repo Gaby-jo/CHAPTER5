@@ -1,5 +1,7 @@
 # CHAPTER5
-5-1
+
+Exercise 5-1: Write a program that converts Centigrade to Fahrenheit.
+
 #include <stdio.h>
 
 //programm to convet C a F.
@@ -15,8 +17,8 @@ F = ((9./5)*C)+32;
   return 0;
 }
 
+Exercise 5-2: Write a program to calculate the volume of a sphere.
 
-5-2
 #include <stdio.h>
 //PROGRAMM TO CACLCULATE THE VOLUME OF A SPHERE.
 int main(void) {
@@ -33,8 +35,9 @@ const float PI = 3.1416;
   return 0;
 }
 
+Exercise 5-3: Write a program that prints the perimeter of a rectangle given its
+height and width. perimeter = 2 · (width + height)
 
-5-3
 #include <stdio.h>
 //CALCULATE PERIMETER OF A RECTANGLE
 int main(void) {
@@ -49,8 +52,9 @@ float W, H, PERIMETER;
   return 0;
 }
 
+Exercise 5 -4: Write a program that converts kilometers per hour to miles per h our.
+miles = (kilometer ·0.6213712
 
-5-4
 #include <stdio.h>
 //PROGRAM TO CONVERT KM/H TO MI/H;
 int main(void) {
@@ -65,7 +69,9 @@ const float CONVERSION = .6213712;
 }
 
 
-5-5
+Exercise 5-5: Write a program that takes hours and minutes as input, and then
+outputs the total number of minutes. (1 hour 30 minutes = 90 minutes).
+
 #include <stdio.h>
 
 int main(void) {
@@ -79,7 +85,8 @@ int main(void) {
 }
 
 
-5-6
+Exercise 5 -6: Write a program that takes an integer as the number of minutes, and
+outputs the total hours and minutes (90 minutes = 1 hour 30 minutes).
 #include <stdio.h>
 //MINUTS TO HOURS AND MINUTES
 int main(void) {
@@ -95,13 +102,12 @@ int main(void) {
 
 
 5-7
-#include <stdio.h>
-//PROGRAM TO KNOW YOUR AGE IN CHINA 
-int main(void) {
-  int B, Y, CHINAGE;
-  printf("INSERT BIRTH YEAR AND ACTUAL YEAR\n");
-  scanf("%d %d", &B, &Y);
-  CHINAGE = (Y - B) + 1;
-  printf("YOUR AGE IN CHINA IS: %d", CHINAGE);
-  return 0;
+foreach (char ch in laugh)
+{
+    if (ch == 'h')
+        Console.Write("H");
+    else
+        Console.Write(ch);
+}
+Console.WriteLine();
 }
